@@ -1,3 +1,10 @@
  node -v  v10.15.2
 
 npm -v 6.4.1
+
+
+
+ 可以全局安装express 和express-generator -g
+ 就可以在项目中直接使用express 项目名称 -e 创建项目  -e  代表使用ejs模板
+
+在使用 .gitignore 时要先建立.gitigonre 规则，忽略的文件就不会被commit ，如果是后建立的gitgonre文件，其他文件会被缓存
