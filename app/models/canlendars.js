@@ -1,0 +1,1 @@
+const mongoose=require('mongoose');const Schema=mongoose.Schema;const Canlendar=new Schema({    _id:Schema.Types.ObjectId,//id    events:String//混合类型});module.exports=mongoose.model("Canlendar",Canlendar);
